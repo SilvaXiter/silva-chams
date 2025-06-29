@@ -1,5 +1,5 @@
 {
-  "status": "ok", 
+  "status": "update", 
   "message": "App is under maintenance.",
   "update_url": "https://yourdomain.com/update.exe"
 }
