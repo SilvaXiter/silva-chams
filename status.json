@@ -1,5 +1,5 @@
 {
-  "status": "close", 
-  "message": "Update To Continue",
-  "update_url": "https://github.com/SilvaXiter/silva-chams/raw/main/Silva%20X64%20Tools.exe"
+  "status": "open",
+  "update_url": "https://github.com/SilvaXiter/silva-chams/raw/main/Silva%20X64%20Tools.exe",
+  "message": "New update available!"
 }
