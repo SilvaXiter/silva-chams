@@ -1,1 +1,4 @@
-1.0.1
+external=online
+internal=maint
+aim=online
+esp=offline
