@@ -1,8 +1,4 @@
 external=online
 internal=maint
 aim=online
-<<<<<<< HEAD
 esp=offline
-=======
-esp=offline
->>>>>>> 57d8a734d1a61a6bc0da795f52ffa0fe099f5998
