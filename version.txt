@@ -1,4 +1,4 @@
-setStatus('external-status', "Online");
-                setStatus('internal-status', "Maintaining");
-                setStatus('aim-status', "Online");
-                setStatus('esp-status', "Online");
+external=online
+internal=maint
+aim=online
+esp=offline
