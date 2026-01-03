@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SILVA XITER | Status</title>
+    <style>
+        :root {
+            --bg-color: #0b0e14;
+            --card-bg: #161b22;
+            --text-main: #ffffff;
+            --text-dim: #8b949e;
+            --online: #238636;
+            --offline: #da3633;
+            --maint: #d29922;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container { width: 100%; max-width: 600px; }
+        header { text-align: center; margin-bottom: 30px; }
+        h1 { font-size: 2rem; color: #58a6ff; margin: 0; }
+        
+        .status-card {
+            background: var(--card-bg);
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .name { font-weight: 600; font-size: 1rem; }
+        
+        .badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .status-online { color: var(--online); border: 1px solid var(--online); }
+        .status-offline { color: var(--offline); border: 1px solid var(--offline); }
+        .status-maint { color: var(--maint); border: 1px solid var(--maint); }
+
+        .dot { width: 8px; height: 8px; border-radius: 50%; }
+        .bg-online { background: var(--online); box-shadow: 0 0 8px var(--online); }
+        .bg-offline { background: var(--offline); box-shadow: 0 0 8px var(--offline); }
+        .bg-maint { background: var(--maint); box-shadow: 0 0 8px var(--maint); }
+
+        #loading { color: var(--text-dim); font-size: 0.9rem; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>SILVA XITER</h1>
+            <p style="color: var(--text-dim);">Live System Status</p>
+        </header>
+
+        <div id="loading">Syncing with GitHub...</div>
+
+        <div class="status-card">
+            <span class="name">External</span>
+            <div id="external-status" class="badge">Checking...</div>
+        </div>
+
+        <div class="status-card">
+            <span class="name">Internal Free Fire Normal</span>
+            <div id="internal-status" class="badge">Checking...</div>
+        </div>
+
+        <div class="status-card">
+            <span class="name">Aim Force FF Beta & Normal</span>
+            <div id="aim-status" class="badge">Checking...</div>
+        </div>
+
+        <div class="status-card">
+            <span class="name">ESP</span>
+            <div id="esp-status" class="badge">Checking...</div>
+        </div>
+
+    </div>
+
+    <script>
+        const GITHUB_URL = 'https://github.com/SilvaXiter/silva-chams/raw/main/version.txt';
+
+        async function updateStatus() {
+            try {
+                const response = await fetch(GITHUB_URL);
+                const text = await response.text();
+                
+                document.getElementById('loading').innerText = "Last Updated: " + new Date().toLocaleTimeString();
+
+                // Logic to set status based on your requirements
+                setStatus('external-status', "Online");
+                setStatus('internal-status', "Maintaining");
+                setStatus('aim-status', "Online");
+                setStatus('esp-status', "Online");
+
+            } catch (error) {
+                console.error("Error fetching status:", error);
+                document.getElementById('loading').innerText = "Offline (Connection Error)";
+            }
+        }
+
+        function setStatus(id, status) {
+            const el = document.getElementById(id);
+            if (status === "Online") {
+                el.className = "badge status-online";
+                el.innerHTML = '<span class="dot bg-online"></span> ONLINE';
+            } else if (status === "Maintaining") {
+                el.className = "badge status-maint";
+                el.innerHTML = '<span class="dot bg-maint"></span> MAINTAINING';
+            } else {
+                el.className = "badge status-offline";
+                el.innerHTML = '<span class="dot bg-offline"></span> OFFLINE';
+            }
+        }
+
+        // Run on load
+        updateStatus();
+    </script>
+</body>
+</html>
