@@ -1,4 +1,4 @@
-Extrenl = Online
-internel Free Fire Normal = Maintaining
-Aim Force ff Beta & ff Normal V7a = Online
-Esp = Online
+setStatus('external-status', "Online");
+                setStatus('internal-status', "Maintaining");
+                setStatus('aim-status', "Online");
+                setStatus('esp-status', "Online");
