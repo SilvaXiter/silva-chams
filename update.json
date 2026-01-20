@@ -1,6 +1,6 @@
 {
   "version": "4.0.0",
-  "popup_title": "SILVA XITER - NEW UPDATE",
-  "popup_msg": "Version 4.0.0 is now live! We have added the New Aimbot V4 and M82B Fast Switch.",
-  "changelog": " [SYSTEM] Cloud Sync: Active (v4.0.0)\n =============================================\n 🚀 NEW FEATURES:\n • New Aimbot V4 Engine\n   Optimized predictive tracking logic for smoother aim\n   and better accuracy on high-speed moving targets.\n\n • M82B Fast Switch Logic\n   Advanced automated weapon swapping. Drastically \n   increases fire rate and reduces reload downtime.\n\n 🛡️ CORE UPDATES:\n • Aimbot Method Update\n   Re-coded memory writing technique for improved \n   security.\n\n • Internal ESP Line Update\n   Redesigned drawing engine for thinner, cleaner lines."
+  "popup_title": "SILVA XITER",
+  "popup_msg": "Version 4.0.0 is Live!",
+  "changelog": "🚀 NEW UPDATE v4.0.0\n\n• New Aimbot v4\n• Add M82B Fast Switch\n• Aimbot Method Update\n• Esp line Update (Internal)"
 }
