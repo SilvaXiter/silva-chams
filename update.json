@@ -1,8 +1,6 @@
 {
   "version": "2.1.0",
   "status": "online",
-  "emergency_msg": "SYSTEM UNDER MAINTENANCE. PLEASE WAIT FOR UPDATES.",
-  "popup_title": "SILVA XITER",
-  "popup_msg": "Version 2.1.0 is Live!",
-  "changelog": "🚀 NEW UPDATE v2.1.0\n\n• New Aimbot v4\n• Add M82B Fast Switch\n• Aimbot Method Update\n• Esp line Update (Internal)"
+  "download_url": "https://github.com/SilvaXiter/silva-chams/raw/refs/heads/main/SILVA%20XITER.exe",
+  "changelog": "🚀 NEW UPDATE v2.1.0\n\n• New Aimbot v4\n• Add M82B Fast Switch\n• Esp line Update (Internal)"
 }
