@@ -1,7 +1,8 @@
 {
   "version": "2.2.0",
-  "popup_title": "UPDATE REQUIRED",
-  "popup_msg": "CRITICAL: This version is now DISABLED. Please update to v2.2.0.",
-  "changelog": "🚀 NEW UPDATE v2.2.0\n\n• Fixed Aimbot Detection\n• New Bypass Method\n• Improved ESP performance",
-  "download_url": "https://github.com/SilvaXiter/silva-chams/raw/refs/heads/main/SILVA%20XITER.exe"
+  "status": "maintenance",
+  "popup_title": "MAINTENANCE MODE",
+  "popup_msg": "The tool is currently offline for safety. Please wait for the new update to be released.",
+  "changelog": "🛠️ UNDER MAINTENANCE\n\n• Server Side Update in progress...\n• Status: WAITING FOR RELEASE\n• Please check back later.",
+  "download_url": "none"
 }
