@@ -1,7 +1,7 @@
 {
   "version": "2.1.0",
-  "status": "online",
-  "popup_title": "🚀 NEW UPDATE READY",
+  "status": "maintenance",
+  "popup_title": "NEW UPDATE READY",
   "popup_msg": "Version 2.2.0 is out! Discord support added.",
   "new_features": "• Added Aimbot Smoothness\n• New ESP Box 3D\n• Added Stream Proof Mode",
   "maintenance_fixes": "• Fixed Crash on Windows 11\n• Improved Anti-Cheat Bypass\n• Fixed Aimbot Lag",
