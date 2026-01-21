@@ -1,8 +1,7 @@
 {
   "version": "2.2.0",
-  "popup_title": "SILVA XITER NEWS",
-  "popup_msg": "Version 2.2.0 is now live! Update for better performance.",
-  "changelog": "🚀 NEW UPDATE v2.2.0\n\n• New Aimbot v4\n• Aimbot Method Update\n• Esp line Update (Internal)\n• Add New Hide Panel Future",
-  "download_url": "https://github.com/YourUser/YourRepo/releases/download/v2.2.0/SILVA_XITER.exe",
-  "alert": "MAINTENANCE: Wait For New Update."
+  "popup_title": "⚠️ UPDATE REQUIRED",
+  "popup_msg": "CRITICAL: This version (2.1.0) is now DISABLED.\n\nPlease download v2.2.0 to restore access to Aimbot and ESP features.",
+  "changelog": "🚀 NEW UPDATE v2.2.0\n\n• Fixed Aimbot Detection\n• New Bypass Method\n• Old versions are no longer supported.\n• Please click 'UPDATE NOW' to continue.",
+  "download_url": "https://your-link-here.com/SILVA_XITER.exe"
 }
