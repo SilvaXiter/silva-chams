@@ -2,26 +2,7 @@
   "status": "online",
   "version": "2.1.0",
   "download_url": "https://github.com/SilvaXiter/silva-chams/raw/main/SILVA_XITER.exe",
-  "discord_url": "https://discord.gg/dYjEANSgJH",
-
-  "normal_mode": {
-    "popup_title": "WELCOME - SILVA XITER",
-    "popup_msg": "Silva Xiter VIP is currently undetected and safe to use.",
-    "new_features": "• Performance optimized for low-end PCs\n• Added Hotkey Support\n• Internal ESP for Free Fire fixed",
-    "maintenance_fixes": "• Fixed MSI5/BS5 ADB Connection\n• Cleaned up GUI code\n• Updated Aimbot Head V4"
-  },
-
-  "update_mode": {
-    "popup_title": "NEW UPDATE READY",
-    "popup_msg": "A new version is available! Please update to maintain security.",
-    "new_features": "• Added Aimbot Smoothness (V2)\n• New ESP Box 3D\n• Added Stream Proof Mode\n• Improved Aimbot V8 Logic",
-    "maintenance_fixes": "• Fixed Crash on Windows 11\n• Improved Anti-Cheat Bypass\n• Fixed Aimbot Lag in Lobby"
-  },
-
-  "maintenance_mode": {
-    "popup_title": "SYSTEM MAINTENANCE",
-    "popup_msg": "The panel is currently OFFLINE for a security update. Please check Discord.",
-    "new_features": "• Preparing v2.2.0 update logs\n• Server-side optimization in progress",
-    "maintenance_fixes": "• Bypassing new game patch\n• Updating Memory Offsets\n• Fixing Sniper Thread crashes"
-  }
+  "normal_mode": { "new_features": "...", "maintenance_fixes": "...", "popup_title": "...", "popup_msg": "..." },
+  "update_mode": { "new_features": "...", "maintenance_fixes": "...", "popup_title": "...", "popup_msg": "..." },
+  "maintenance_mode": { "new_features": "...", "maintenance_fixes": "...", "popup_title": "...", "popup_msg": "..." }
 }
