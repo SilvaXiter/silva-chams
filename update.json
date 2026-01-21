@@ -1,8 +1,9 @@
 {
-  "version": "2.2.0",
-  "status": "maintenance",
-  "popup_title": "MAINTENANCE MODE",
-  "popup_msg": "The tool is currently offline for safety. Please wait for the new update to be released.",
-  "changelog": "🛠️ UNDER MAINTENANCE\n\n• Server Side Update in progress...\n• Status: WAITING FOR RELEASE\n• Please check back later!.",
-  "download_url": "none"
+  "version": "2.1.0",
+  "status": "online",
+  "popup_title": "UPDATE READY",
+  "popup_msg": "New update v2.1.0 is now available with new features!",
+  "new_features": "• Added Aimbot Smoothness Control\n• New ESP Box 3D Mode\n• Added Hotkey Customization",
+  "maintenance_fixes": "• Fixed Crash on Windows 11\n• Security Bypass Updated\n• Reduced CPU Usage by 15%",
+  "download_url": "https://github.com/SilvaXiter/silva-chams/raw/main/SILVA_XITER.exe"
 }
