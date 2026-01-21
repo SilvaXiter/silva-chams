@@ -1,10 +1,10 @@
 {
-  "version": "2.1.0",
+  "version": "2.1.0", 
   "status": "maintenance",
-  "popup_title": "NEW UPDATE READY",
-  "popup_msg": "Version 2.2.0 is out! Discord support added.",
-  "new_features": "• Added Aimbot Smoothness\n• New ESP Box 3D\n• Added Stream Proof Mode",
-  "maintenance_fixes": "• Fixed Crash on Windows 11\n• Improved Anti-Cheat Bypass\n• Fixed Aimbot Lag",
-  "download_url": "https://github.com/SilvaXiter/silva-chams/raw/main/SILVA_XITER.exe",
+  "popup_title": "🕒 MAINTENANCE MODE",
+  "popup_msg": "The tool is currently offline for safety. Please wait for the new update to be released.",
+  "new_features": "• Upcoming: New Menu UI\n• Upcoming: Improved ESP",
+  "maintenance_fixes": "• CRITICAL: Working on bypass for new game patch.\n• Status: Fixing Aimbot crashes.\n• Expected time: 2-3 hours.",
+  "download_url": "none",
   "discord_url": "https://discord.gg/dYjEANSgJH"
 }
