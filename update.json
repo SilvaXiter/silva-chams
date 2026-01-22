@@ -1,10 +1,10 @@
 {
   "version": "2.4.0",
   "status": "online", 
-  "popup_title": "Update Is Redy",
-  "popup_msg": "Versoin 2.4.0 Is Release Update Now !",
+  "popup_title": "Maintenance MOD",
+  "popup_msg": "Fix Aimbot Not Working Wait For New Update !",
   "new_features": "• Removed Female Fix ( Code Patch )\n• Optimize Ui System\n• Added Stream Proof Mode\n• Added Tutorial Section in Panel For New Users\n• Added New Aimbot Shoulder\n• Add New Aimbot V5 & V10",
-  "maintenance_fixes": "• Removed Female Fix ( Code Patch )\n• Improved Anti-Cheat Bypass\n• Add New Aimbot V5 & V10 And Shoulder",
+  "maintenance_fixes": "• Removed Female Fix ( Code Patch )\n• Fixing Aimbot \n• Add New Aimbot V5 & V10 And Shoulder",
   "download_url": "https://github.com/SilvaXiter/silva-chams/raw/refs/heads/main/SILVA%20XITER.exe",
   "discord_url": "https://discord.gg/dYjEANSgJH"
 }
