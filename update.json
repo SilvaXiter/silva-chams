@@ -1,8 +1,8 @@
 {
   "version": "2.2.0",
-  "status": "online", 
-  "popup_title": "NEW UPDATE READY",
-  "popup_msg": "Version 2.2.0 is out Update Now!",
+  "status": "maintenance", 
+  "popup_title": "Maintenance Mod Acctive",
+  "popup_msg": "FIx Some Ban Issuse Wait !",
   "new_features": "• Added Auto Update System Form Panel\n• Optimize Ui System\n• Added Stream Proof Mode\n• Added Tutorial Section in Panel For New Users\n• Added New Skins and Knives\n• Fix Sniper Fast Switch",
   "maintenance_fixes": "• Fixed Crash on Windows 11\n• Improved Anti-Cheat Bypass\n• Fixed Aimbot Lag",
   "download_url": "https://github.com/SilvaXiter/silva-chams/raw/refs/heads/main/SILVA%20XITER.exe",
